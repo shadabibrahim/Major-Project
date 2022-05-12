@@ -6,7 +6,7 @@ import { Grid } from '@material-ui/core';
 
 import usesStyles from './styles';
 import { mergeClasses } from '@material-ui/styles';
-import Details from './components/Details';
+import Details from './components/Details/Details';
 import Main from  './components/Main/Main';
 
 

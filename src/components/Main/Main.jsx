@@ -1,8 +1,14 @@
-import React from 'react'
-import { Card, CardHeader, CardContent, Typography, Grid, Divider, List } from '@material-ui/core'
+import React from 'react';
+import ReactDom from 'react-dom';
+import { Card, CardHeader, CardContent, Typography, Grid, Divider } from '@material-ui/core'
 import useStyles from './styles';
-// import Form from './Form/Form';
-//  import List from './List/List';
+import Form from './Form/Form';
+import List from './List/List'
+
+
+
+
+ 
 
 const Main = () => {
 const classes = useStyles();
@@ -18,12 +24,12 @@ const classes = useStyles();
                 </Typography>
                 <Divider />
                 
-                {/* <Form /> */}
+                <Form />
             </CardContent>
             <CardContent className={classes.cartContent}>
                 <Grid container spacing={12}>
                     
-                    {/* <List /> */}
+                <List />
                 </Grid>
             </CardContent>
         </Card>
